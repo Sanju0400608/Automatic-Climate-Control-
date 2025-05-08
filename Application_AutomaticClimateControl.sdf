@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=Application_AutomaticClimateControl.rta
+RTP=1
+
+[1]
+ID=c1919df4-d6ab-4367-a135-9ecd488aba77
+Type=DS1403
+ServiceID=1
+TraceFile=Automatic_ClimateControl.trc
+

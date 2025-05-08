@@ -1,0 +1,153 @@
+{
+  "Version": "1.0.2",
+  "ElementRef": "HardwareTopology",
+  "ProcessingUnits": [
+    {
+      "Name": "DS1403 Processor Board",
+      "DsNumber": "DS1403",
+      "ParentName": "MicroAutoBox III (1)",
+      "SystemName": "",
+      "NumberOfDownlinks": 1,
+      "ApplicationCores": 4,
+      "ChannelSets": [
+        {
+          "Channels": [
+            {
+              "Name": "Eth0_1",
+              "Number": 23,
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\EthernetOnboard2\\Eth0_1"
+            },
+            {
+              "Name": "Eth0_2",
+              "Number": 24,
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\EthernetOnboard2\\Eth0_2"
+            }
+          ],
+          "Name": "EthernetOnboard2",
+          "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\EthernetOnboard2"
+        },
+        {
+          "Channels": [
+            {
+              "Name": "Switch0_1",
+              "Number": 25,
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\EthernetSwitch2\\Switch0_1"
+            }
+          ],
+          "Name": "EthernetSwitch2",
+          "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\EthernetSwitch2"
+        }
+      ],
+      "Boards": [
+        {
+          "DsNumber": "DS1511",
+          "SlotNumbers": "1",
+          "Modules": [
+            {
+              "Name": "DIO Type 3 (Module 1)",
+              "DsNumber": "DIO_TP3",
+              "SlotNumbers": "1",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1511 Multi-I/O Board\\DIO Type 3 (Module 1)"
+            },
+            {
+              "Name": "ADC Type 4 (Module 1)",
+              "DsNumber": "ADC_TP4",
+              "SlotNumbers": "2",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1511 Multi-I/O Board\\ADC Type 4 (Module 1)"
+            },
+            {
+              "Name": "DAC Type 3 (Module 1)",
+              "DsNumber": "DAC_TP3",
+              "SlotNumbers": "3",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1511 Multi-I/O Board\\DAC Type 3 (Module 1)"
+            },
+            {
+              "Name": "CAN Type 1 (Module 1)",
+              "DsNumber": "CAN_TP1",
+              "SlotNumbers": "4",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1511 Multi-I/O Board\\CAN Type 1 (Module 1)"
+            },
+            {
+              "Name": "CAN Type 1 (Module 2)",
+              "DsNumber": "CAN_TP1",
+              "SlotNumbers": "5",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1511 Multi-I/O Board\\CAN Type 1 (Module 2)"
+            }
+          ],
+          "ChannelSets": [],
+          "Configurations": [],
+          "Descendants": [],
+          "Name": "DS1511 Multi-I/O Board",
+          "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1511 Multi-I/O Board"
+        },
+        {
+          "DsNumber": "DS1514",
+          "SlotNumbers": "2",
+          "Modules": [
+            {
+              "Name": "FPGA Type 1 (Module 1)",
+              "DsNumber": "FPGA_TP1",
+              "SlotNumbers": "1",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1514 FPGA Base Board\\FPGA Type 1 (Module 1)"
+            },
+            {
+              "Name": "IP Type 1 (Module 1)",
+              "DsNumber": "IP_TP1",
+              "SlotNumbers": "2",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1514 FPGA Base Board\\IP Type 1 (Module 1)"
+            },
+            {
+              "Name": "IP Type 1 (Module 2)",
+              "DsNumber": "IP_TP1",
+              "SlotNumbers": "3",
+              "Modules": [],
+              "ChannelSets": [],
+              "Configurations": [],
+              "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1514 FPGA Base Board\\IP Type 1 (Module 2)"
+            }
+          ],
+          "ChannelSets": [],
+          "Configurations": [],
+          "Descendants": [],
+          "Name": "DS1514 FPGA Base Board",
+          "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\DS1514 FPGA Base Board"
+        }
+      ],
+      "Downlinks": [
+        {
+          "Number": 1,
+          "ConnectionRef": "",
+          "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board\\Port 1"
+        }
+      ],
+      "Descendants": [],
+      "ElementRef": "HardwareTopology\\MicroAutoBox III (1)\\DS1403 Processor Board"
+    }
+  ],
+  "Units": [],
+  "LinkBoards": []
+}

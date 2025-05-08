@@ -1,0 +1,1099 @@
+<*GNU-Linker-generated-mapfile*> 
+generated for DS1403 platform 
+collect2 version 13.2.0
+C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/bin/ld.exe -plugin C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/13.2.0/liblto_plugin.dll -plugin-opt=C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\srepaka\AppData\Local\Temp\cc0SqEMQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o -LC:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0 -LC:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc -LC:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/lib -LC:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib -v --unresolved-symbols=ignore-all -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+GNU ld (GNU Binutils) 2.41
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+                              dssimengine_accesspoint.oarm (Automatic_ClimateControl_DSRTInitMdl)
+C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+                              rtosal_task.oarm (Automatic_ClimateControl_DSRTMdlOutputs0)
+C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+                              C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm) (Automatic_ClimateControl_output)
+C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+                              C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm) (Automatic_ClimateControl_P)
+C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+                              C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm) (Automatic_ClimateControl_rti_init_trc_pointers)
+C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+                              C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm) (rt_ZCFcn)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libDsRealTimeTestingRP.so.1   rtosal_task.oarm (dsrtt_script_service_post_computation)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 mdladapter_mdlfunctions.oarm
+ .note.GNU-stack
+                0x00000000        0x0 mdlCode_ap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 data_in_ap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 data_out_ap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 fm_entry_ap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 fm_exit_ap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 dssimengine_accesspoint.oarm
+ .note.GNU-stack
+                0x00000000        0x0 dssimengine_api.oarm
+ .note.GNU-stack
+                0x00000000        0x0 dssimengine_main.oarm
+ .note.GNU-stack
+                0x00000000        0x0 rtosal_task.oarm
+ .note.GNU-stack
+                0x00000000        0x0 rtosal_taskap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 rtosal_simengineap.oarm
+ .note.GNU-stack
+                0x00000000        0x0 IOCode_Data.oarm
+ .note.GNU-stack
+                0x00000000        0x0 dssimengine_accesspoint_Voltage_In.oarm
+ .note.GNU-stack
+                0x00000000        0x0 dssimengine_accesspoint_Voltage_Out.oarm
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+ .note.GNU-stack
+                0x00000000        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+                0x00000000                        _DSPACE_START = 0x0
+                0x00000000                        _DSPACE_START_ = 0x0
+                0x000009ce                        DS_TARGET_PLATFORM = 0x9ce
+START GROUP
+LOAD mdladapter_mdlfunctions.oarm
+LOAD mdlCode_ap.oarm
+LOAD data_in_ap.oarm
+LOAD data_out_ap.oarm
+LOAD fm_entry_ap.oarm
+LOAD fm_exit_ap.oarm
+LOAD dssimengine_accesspoint.oarm
+LOAD dssimengine_api.oarm
+LOAD dssimengine_main.oarm
+LOAD rtosal_task.oarm
+LOAD rtosal_taskap.oarm
+LOAD rtosal_simengineap.oarm
+LOAD IOCode_Data.oarm
+LOAD dssimengine_accesspoint_Voltage_In.oarm
+LOAD dssimengine_accesspoint_Voltage_Out.oarm
+LOAD C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a
+LOAD C:\Program Files\dSPACE ConfigurationDesk 2024-A (24.1)\DS1403\Lib/libdsimbsaiodrv.so
+LOAD C:\Program Files\dSPACE ConfigurationDesk 2024-A (24.1)\DS1403\Lib/libdscandrv.so
+LOAD C:\Program Files\dSPACE ConfigurationDesk 2024-A (24.1)\DS1403\Lib/libdslindrv.so
+LOAD C:\Program Files\dSPACE ConfigurationDesk 2024-A (24.1)\DS1403\Lib/libdsethernetinterfacemanagementdrv.so
+END GROUP
+LOAD C:\Program Files\dSPACE ConfigurationDesk 2024-A (24.1)\DS1403\Lib/libDsRtLib.so
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib\libpthread.a
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib\librt.a
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/lib/libstdc++.so
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/libm.so
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/lib\libgcc_s.so.1
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0\libgcc.a
+END GROUP
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0\libgcc.a
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/libc.so
+START GROUP
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib\libc.so.6
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib\libc_nonshared.a
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib\ld-linux-armhf.so.3
+END GROUP
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/../../../../arm-linux-gnueabihf/lib\libgcc_s.so.1
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0\libgcc.a
+END GROUP
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0\libgcc.a
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+LOAD C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x10000))
+                0x00010154                        . = (SEGMENT_START ("text-segment", 0x10000) + SIZEOF_HEADERS)
+
+.interp         0x00010154       0x19
+ *(.interp)
+ .interp        0x00010154       0x19 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.note.gnu.build-id
+                0x00010170       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00010170       0x24 linker stubs
+
+.note.ABI-tag   0x00010194       0x20
+ .note.ABI-tag  0x00010194       0x20 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.hash           0x000101b4      0x860
+ *(.hash)
+ .hash          0x000101b4      0x860 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.gnu.hash       0x00010a14      0x94c
+ *(.gnu.hash)
+ .gnu.hash      0x00010a14      0x94c C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.dynsym         0x00011360     0x10f0
+ *(.dynsym)
+ .dynsym        0x00011360     0x10f0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.dynstr         0x00012450     0x2733
+ *(.dynstr)
+ .dynstr        0x00012450     0x2733 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.gnu.version    0x00014b84      0x21e
+ *(.gnu.version)
+ .gnu.version   0x00014b84      0x21e C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.gnu.version_d  0x00014da4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00014da4        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.gnu.version_r  0x00014da4       0xa0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00014da4       0xa0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.rel.dyn        0x00014e44       0x28
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00014e44       0x18 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00014e5c       0x10 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00014e6c        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x00014e6c        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x00014e6c        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rel.plt        0x00014e6c      0x1c8
+ *(.rel.plt)
+ .rel.plt       0x00014e6c      0x1c8 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x00015034        0xc
+ *(SORT_NONE(.init))
+ .init          0x00015034        0x8 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+                0x00015034                _init
+ .init          0x0001503c        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.plt            0x00015040      0x2c0
+ *(.plt)
+ .plt           0x00015040      0x2c0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x00015054                DsCApplication::DsCApplication(DsCErrorListPool&)
+                0x00015060                DsCTask::setSimTimeVariable(double*)
+                0x0001506c                DsCTask::setDeadlineViolationFunction(DsCErrorListPool&, void (*)(DsCErrorListPool&, DsCTask*))
+                0x00015078                DsCImbsIoAnalogOut::create(DsCErrorListPool&, DsCApplication*)
+                0x00015084                DsCFcnModule::create(DsCErrorListPool&, DsCApplication*, char const*)
+                0x00015090                DsCApplication::setSlowStart(DsCErrorListPool&, double, double)
+                0x0001509c                DsCIoDriver::setName(DsCErrorListPool&, char const*)
+                0x000150a8                DsCTask::DsCTask(DsCErrorListPool&, DsCApplication*, char const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, DsCTask*, unsigned int)
+                0x000150b4                DsCApplication::setCalibrationMode(DsCErrorListPool&, unsigned int)
+                0x000150c0                DsCImbsIoAnalogIn::setMeasurementMode(DsCErrorListPool&, unsigned int)
+                0x000150cc                DsNApplicationInterface::registerAppl(void*)
+                0x000150d8                DsNApplicationInterface::registerResource(char const*, void*)
+                0x000150e4                DsCImbsIoAnalogIn::setEventGeneration(DsCErrorListPool&, unsigned int)
+                0x000150f0                DsCTask::daqService(unsigned int)
+                0x000150fc                DsCTask::getOverrunCounter()
+                0x00015108                DsCFcnModule::bindDriver(DsCErrorListPool&, DsCIoDriver*)
+                0x00015114                DsCTimer::create(DsCErrorListPool&, double, double, char const*)
+                0x00015120                memset@@GLIBC_2.4
+                0x0001512c                dsrtt_script_service_post_computation
+                0x00015138                DsCTask::setTaskVariables(DsCErrorListPool&, tagDsSKernelTaskVariables*)
+                0x00015144                operator delete(void*, unsigned int)@@CXXABI_1.3.9
+                0x00015150                DsCApplication::setIoResourceMap(DsCErrorListPool&, void*)
+                0x0001515c                __libc_start_main@@GLIBC_2.34
+                0x00015168                snprintf@@GLIBC_2.4
+                0x00015174                DsCApplication::stop()
+                0x00015180                DsCApplication::~DsCApplication()
+                0x0001518c                DsCTask::bindFcnModule(DsCErrorListPool&, DsCFcnModule*)
+                0x00015198                DsCIoChannel::getInstance(DsCErrorListPool&, DsSIonetChannelAddress const*)
+                0x000151a4                DsCTask::getDescription()
+                0x000151b0                DsCImbsIoAnalogIn::setInputValueInitial(DsCErrorListPool&, double)
+                0x000151bc                DsCApplication::errorMessage(unsigned char, unsigned int, unsigned int, char const*, unsigned int, unsigned int, char const*, char const*, ...)
+                0x000151c8                __cxa_end_cleanup@@CXXABI_1.3
+                0x000151d4                __wrap_abort
+                0x000151e0                DsCIoDriver::bindIoChannel(DsCErrorListPool&, DsCIoChannel*, unsigned int, unsigned int)
+                0x000151ec                operator new(unsigned int)
+                0x000151f8                DsBusAccessRP_updateAllInputs(DsCErrorListPool&)
+                0x00015204                DsCApplication::getFailureSimulationBlock(DsCErrorListPool&)
+                0x00015210                DsCTask::~DsCTask()
+                0x0001521c                __wrap_printf
+                0x00015228                dsrtt_set_rtt_task(DsCTask*)
+                0x00015234                dsrtt_script_service_pre_computation
+                0x00015240                dsrtt_set_step_size
+                0x0001524c                DsCApplication::getDiagnosticBlock(DsCErrorListPool&)
+                0x00015258                DsCApplication::terminate()
+                0x00015264                __aeabi_ul2d@@GCC_3.5
+                0x00015270                __gxx_personality_v0@@CXXABI_1.3
+                0x0001527c                DsCFcnModule::updateOutputs()
+                0x00015288                strcmp@@GLIBC_2.4
+                0x00015294                dsrtt_mp_register_config
+                0x000152a0                DsCFcnModule::updateInputs()
+                0x000152ac                DsBusAccessRP_updateAllOutputs(DsCErrorListPool&)
+                0x000152b8                DsCApplication::createErrorList()
+                0x000152c4                exp@@GLIBC_2.29
+                0x000152dc                DsCTask::getCallCounter()
+                0x000152e8                DsCImbsIoAnalogIn::create(DsCErrorListPool&, DsCApplication*)
+                0x000152f4                DsCTask::bindTrigger(DsCErrorListPool&, DsCTimer*)
+
+.iplt           0x00015300        0x0
+ *(.iplt)
+ .iplt          0x00015300        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+
+.text           0x00015300     0x2b20
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00015300       0x30 dssimengine_main.oarm
+                0x00015300                __registerApplDsCApplicationMain()
+ .text.startup  0x00015330       0x10 rtosal_simengineap.oarm
+                0x00015330                __registerRTTMPConfig()
+ .text.startup  0x00015340       0x14 IOCode_Data.oarm
+                0x00015340                __registerResourceg_ResourceMap()
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00015354       0x34 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x00015354                _start
+ .text          0x00015388       0x24 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .text          0x000153ac       0x6c C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .text          0x00015418       0x38 mdladapter_mdlfunctions.oarm
+                0x00015418                Automatic_ClimateControl_APTerminateSimulation
+                0x0001541c                Automatic_ClimateControl_APLastApplStateStopped
+                0x00015448                Automatic_ClimateControl_APStopSimulation
+                0x0001544c                Automatic_ClimateControl_APPrintMessage
+ .text          0x00015450        0x0 mdlCode_ap.oarm
+ .text          0x00015450       0x68 data_in_ap.oarm
+                0x00015450                ap_read_Automatic_ClimateControl_DataInport1_P1_S1
+ .text          0x000154b8      0x12c data_out_ap.oarm
+                0x000154b8                ap_write_Automatic_ClimateControl_DataOutport2_P1_S1
+                0x0001551c                ap_write_Automatic_ClimateControl_DataOutport3_P1_S1
+                0x00015580                ap_write_Automatic_ClimateControl_DataOutport1_P1_S1
+ .text          0x000155e4       0x10 fm_entry_ap.oarm
+                0x000155e4                ap_entry_Automatic_ClimateControl_SIDRoot_TID1
+ .text          0x000155f4       0x10 fm_exit_ap.oarm
+                0x000155f4                ap_exit_Automatic_ClimateControl_SIDRoot_TID1
+ *fill*         0x00015604        0x4 
+ .text          0x00015608      0x69c dssimengine_accesspoint.oarm
+                0x00015608                ApSimEngineOnInitMdl
+                0x00015624                ApSimEngineOnStartMdl
+                0x00015640                ApSimEngineOnStopMdl
+                0x0001565c                ApSimEngineOnTerminateMdl
+                0x00015670                ApSimEngineOnTerminate
+                0x000156a8                ApSimEngineOnUnload
+                0x000156b4                ApSimEngineOnUnloadMdl
+                0x000156c0                ApSimEngineOnInitImc
+                0x000156cc                ApSimEngineOnStartImc
+                0x000156d8                ApSimEngineOnStopImc
+                0x000156e4                ApSimEngineOnTerminateImc
+                0x000156f0                ApSimEngineOnUnloadImc
+                0x000156fc                ApSimEngineOnInitIoPreRtosInit
+                0x00015784                ApSimEngineOnInitHwDiagnostics
+                0x000158d8                ApSimEngineOnStopIo
+                0x00015908                ApSimEngineOnStop
+                0x00015940                ApSimEngineOnTerminateIo
+                0x0001594c                ApSimEngineOnUnloadIo
+                0x00015958                ApSimEngineOnInitRtos
+                0x000159a0                ApSimEngineOnStartRtos
+                0x000159c0                ApSimEngineOnStopRtos
+                0x000159cc                ApSimEngineOnTerminateRtos
+                0x000159d8                ApSimEngineOnUnloadRtos
+                0x000159e4                ApSimEngineIdle
+                0x000159f0                ApSimEngineRunTimeInit(DsCErrorListPool&, int)
+                0x00015a2c                ApSimEngineOnInitIoPostRtosInit
+                0x00015ba0                ApSimEngineOnInit
+                0x00015c04                ApSimEngineOnStartIo
+                0x00015c6c                ApSimEngineOnStart
+ .text          0x00015ca4       0x40 dssimengine_api.oarm
+                0x00015ca4                SimEngineLastApplStateGet()
+                0x00015cb4                SimEngineApplStop()
+                0x00015cc4                SimEngineApplTerminate()
+                0x00015cd4                SimEngineApplGet()
+ .text          0x00015ce4      0x1fc dssimengine_main.oarm
+                0x00015ce4                destroyApplication
+                0x00015cfc                getApplicationErrorList
+                0x00015d0c                DsCApplicationMain::~DsCApplicationMain()
+                0x00015d0c                DsCApplicationMain::~DsCApplicationMain()
+                0x00015d48                DsCApplicationMain::~DsCApplicationMain()
+                0x00015d90                createApplication
+                0x00015de8                DsCApplicationMain::onInit(DsCErrorListPool&)
+                0x00015e14                DsCApplicationMain::onStart(DsCErrorListPool&)
+                0x00015e40                DsCApplicationMain::onStop(DsCErrorListPool&)
+                0x00015e6c                DsCApplicationMain::onTerminate(DsCErrorListPool&)
+                0x00015e98                DsCApplicationMain::onUnload(DsCErrorListPool&)
+                0x00015ea0                DsCApplicationMain::onIdle(DsCErrorListPool&)
+                0x00015ea8                DsCApplicationMain::DsCApplicationMain(DsCErrorListPool&)
+                0x00015ea8                DsCApplicationMain::DsCApplicationMain(DsCErrorListPool&)
+ .text          0x00015ee0      0x414 rtosal_task.oarm
+                0x00015ee0                DsCRtosAlPeriodic_Task_1::~DsCRtosAlPeriodic_Task_1()
+                0x00015ee0                DsCRtosAlPeriodic_Task_1::~DsCRtosAlPeriodic_Task_1()
+                0x00015f0c                DsCRtosAlPeriodic_Task_1::~DsCRtosAlPeriodic_Task_1()
+                0x00015f44                DsCRtosAlPeriodic_Task_1::onRun(DsCErrorListPool&)
+                0x00016048                DsCRtosAlPeriodic_Task_1::onOverrun(DsCErrorListPool&)
+                0x00016090                DsCRtosAlPeriodic_Task_1::DsCRtosAlPeriodic_Task_1(DsCErrorListPool&, DsCApplication*, char const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, DsCTask*, unsigned int)
+                0x00016090                DsCRtosAlPeriodic_Task_1::DsCRtosAlPeriodic_Task_1(DsCErrorListPool&, DsCApplication*, char const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, DsCTask*, unsigned int)
+                0x0001610c                DsCRtosAlPeriodic_Task_1::create(DsCErrorListPool&, DsCApplication*, char const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, DsCTask*, unsigned int)
+                0x000161e0                RtosAlDefaultDeadlineViolationHandler(DsCErrorListPool&, DsCTask*)
+                0x000162a0                RtosAlProfilerSourcesInitialization()
+                0x000162a4                RtosAlHandleOverruns(DsCTask*, int)
+ *fill*         0x000162f4        0x4 
+ .text          0x000162f8       0x78 rtosal_taskap.oarm
+                0x000162f8                RtosAlTask_01_TaskEntry
+                0x00016308                RtosAlTask_01_TaskExit
+ .text          0x00016370      0x29c rtosal_simengineap.oarm
+                0x00016370                RtosAlOnInit(DsCErrorListPool&)
+                0x00016470                RtosAlOnStart(DsCErrorListPool&)
+ .text          0x0001660c        0x0 IOCode_Data.oarm
+ .text          0x0001660c      0x100 dssimengine_accesspoint_Voltage_In.oarm
+                0x0001660c                ApSimEngineRunTimeInit_ctlcBODY_0_Voltage_In_i1_(DsCErrorListPool&)
+                0x00016624                ApSimEngineOnStartIo_ctlcBODY_0_Voltage_In_i1_(DsCErrorListPool&)
+                0x0001663c                ApSimEngineOnInitIoPreRtosInit_ctlcBODY_2_Voltage_In_i1_(DsCErrorListPool&, DsCApplication*)
+                0x00016660                ApSimEngineOnInitIoPostRtosInit_ctlcBODY_0_Voltage_In_i1_(DsCErrorListPool&)
+ .text          0x0001670c      0x318 dssimengine_accesspoint_Voltage_Out.oarm
+                0x0001670c                ApSimEngineRunTimeInit_ctlcBODY_0_Voltage_Out_i2_(DsCErrorListPool&)
+                0x0001672c                ApSimEngineOnStartIo_ctlcBODY_0_Voltage_Out_i2_(DsCErrorListPool&)
+                0x0001674c                ApSimEngineOnStopIo_ctlcBODY_0_Voltage_Out_i2_(DsCErrorListPool&)
+                0x0001676c                ApSimEngineOnInitIoPreRtosInit_ctlcBODY_2_Voltage_Out_i2_(DsCErrorListPool&, DsCApplication*)
+                0x00016790                ApSimEngineOnInitIoPostRtosInit_ctlcBODY_0_Voltage_Out_i2_(DsCErrorListPool&)
+                0x00016814                ApSimEngineRunTimeInit_ctlcBODY_0_Voltage_Out_i3_(DsCErrorListPool&)
+                0x00016834                ApSimEngineOnStartIo_ctlcBODY_0_Voltage_Out_i3_(DsCErrorListPool&)
+                0x00016854                ApSimEngineOnStopIo_ctlcBODY_0_Voltage_Out_i3_(DsCErrorListPool&)
+                0x00016874                ApSimEngineOnInitIoPreRtosInit_ctlcBODY_2_Voltage_Out_i3_(DsCErrorListPool&, DsCApplication*)
+                0x00016898                ApSimEngineOnInitIoPostRtosInit_ctlcBODY_0_Voltage_Out_i3_(DsCErrorListPool&)
+                0x0001691c                ApSimEngineRunTimeInit_ctlcBODY_0_Voltage_Out_i1_(DsCErrorListPool&)
+                0x0001693c                ApSimEngineOnStartIo_ctlcBODY_0_Voltage_Out_i1_(DsCErrorListPool&)
+                0x0001695c                ApSimEngineOnStopIo_ctlcBODY_0_Voltage_Out_i1_(DsCErrorListPool&)
+                0x0001697c                ApSimEngineOnInitIoPreRtosInit_ctlcBODY_2_Voltage_Out_i1_(DsCErrorListPool&, DsCApplication*)
+                0x000169a0                ApSimEngineOnInitIoPostRtosInit_ctlcBODY_0_Voltage_Out_i1_(DsCErrorListPool&)
+ *fill*         0x00016a24        0x4 
+ .text          0x00016a28      0x2f8 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+                0x00016a28                Automatic_ClimateControl_DSRTInitMdl
+                0x00016a9c                Automatic_ClimateControl_DSRTStartMdl
+                0x00016b3c                Automatic_ClimateControl_DSRTStopMdl
+                0x00016ba8                Automatic_ClimateControl_DSRTCheckForErrorStatus
+                0x00016c10                Automatic_ClimateControl_DSRTCheckForSimulationStopCondition
+ .text          0x00016d20        0x8 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+                0x00016d20                Automatic_ClimateControl_DSRTMdlOutputs0
+                0x00016d24                Automatic_ClimateControl_DSRTMdlUpdate0
+ .text          0x00016d28      0xf34 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+                0x00017100                look1_binlxpw
+                0x000171ec                Automatic_ClimateControl_output
+                0x00017828                Automatic_ClimateControl_update
+                0x00017a18                Automatic_ClimateControl_derivatives
+                0x00017a30                Automatic_ClimateControl_initialize
+                0x00017c58                Automatic_ClimateControl_terminate
+ .text          0x00017c5c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+ .text          0x00017c5c      0x100 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+                0x00017d40                Automatic_ClimateControl_rti_init_trc_pointers
+ .text          0x00017d5c       0xc4 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+                0x00017d5c                rt_ZCFcn
+ .text          0x00017e20        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+ .text          0x00017e20        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00017e20        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00017e20        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00017e20        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00017e20        0x0 linker stubs
+
+.fini           0x00017e20        0x8
+ *(SORT_NONE(.fini))
+ .fini          0x00017e20        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+                0x00017e20                _fini
+ .fini          0x00017e24        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x00017e28      0x534
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x00017e28        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x00017e28                _IO_stdin_used
+ .rodata        0x00017e2c       0x90 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .rodata.str1.4
+                0x00017ebc      0x365 dssimengine_main.oarm
+                                 0x2d (size before relaxing)
+ *fill*         0x00018221        0x3 
+ .rodata        0x00018224       0x4c dssimengine_main.oarm
+                0x00018224                vtable for DsCApplicationMain
+                0x0001824c                typeinfo name for DsCApplicationMain
+                0x00018264                typeinfo for DsCApplicationMain
+ .rodata.str1.4
+                0x00018270      0x13e rtosal_task.oarm
+ .rodata        0x00018270       0x40 rtosal_task.oarm
+                0x00018270                vtable for DsCRtosAlPeriodic_Task_1
+                0x00018288                typeinfo name for DsCRtosAlPeriodic_Task_1
+                0x000182a4                typeinfo for DsCRtosAlPeriodic_Task_1
+ .rodata.str1.4
+                0x000182b0       0xae rtosal_simengineap.oarm
+ .rodata.str1.4
+                0x000182b0        0xe IOCode_Data.oarm
+ .rodata.str1.4
+                0x000182b0        0xf dssimengine_accesspoint_Voltage_In.oarm
+ .rodata.str1.4
+                0x000182b0       0x30 dssimengine_accesspoint_Voltage_Out.oarm
+ .rodata.str1.4
+                0x000182b0       0xf0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+ .rodata.str1.4
+                0x000182b0        0x5 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+ .rodata        0x000182b0        0x4 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+                0x000182b0                Automatic_ClimateControl_M
+ *fill*         0x000182b4        0x4 
+ .rodata        0x000182b8       0x13 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+ *fill*         0x000182cb        0x1 
+ .rodata        0x000182cc       0x90 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x0001835c       0x40
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x0001835c        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .ARM.extab     0x0001835c        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .ARM.extab     0x0001835c        0x0 mdladapter_mdlfunctions.oarm
+ .ARM.extab     0x0001835c        0x0 data_in_ap.oarm
+ .ARM.extab     0x0001835c        0x0 data_out_ap.oarm
+ .ARM.extab     0x0001835c        0x0 fm_entry_ap.oarm
+ .ARM.extab     0x0001835c        0x0 fm_exit_ap.oarm
+ .ARM.extab     0x0001835c        0x0 dssimengine_accesspoint.oarm
+ .ARM.extab     0x0001835c        0x0 dssimengine_api.oarm
+ .ARM.extab     0x0001835c       0x18 dssimengine_main.oarm
+ .ARM.extab.text.startup
+                0x00018374        0x0 dssimengine_main.oarm
+ .ARM.extab     0x00018374       0x1b rtosal_task.oarm
+ .ARM.extab     0x0001838f        0x0 rtosal_taskap.oarm
+ .ARM.extab.text.startup
+                0x0001838f        0x0 rtosal_simengineap.oarm
+ *fill*         0x0001838f        0x1 
+ .ARM.extab     0x00018390        0xc rtosal_simengineap.oarm
+ .ARM.extab.text.startup
+                0x0001839c        0x0 IOCode_Data.oarm
+ .ARM.extab     0x0001839c        0x0 dssimengine_accesspoint_Voltage_In.oarm
+ .ARM.extab     0x0001839c        0x0 dssimengine_accesspoint_Voltage_Out.oarm
+ .ARM.extab     0x0001839c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+ .ARM.extab     0x0001839c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+ .ARM.extab     0x0001839c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+ .ARM.extab     0x0001839c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+ .ARM.extab     0x0001839c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+
+.ARM.exidx      0x0001839c      0x208
+                [!provide]                        PROVIDE (__exidx_start = .)
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.startup
+                0x0001839c       0x10 dssimengine_main.oarm
+ .ARM.exidx.text.startup
+                0x000183ac        0x8 rtosal_simengineap.oarm
+ .ARM.exidx.text.startup
+                0x000183b4        0x0 IOCode_Data.oarm
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x000183b4        0x8 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .ARM.exidx     0x000183bc       0x18 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+                                 0x20 (size before relaxing)
+ .ARM.exidx     0x000183d4       0x10 mdladapter_mdlfunctions.oarm
+                                 0x20 (size before relaxing)
+ .ARM.exidx     0x000183e4        0x0 data_in_ap.oarm
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x000183e4        0x0 data_out_ap.oarm
+                                 0x18 (size before relaxing)
+ .ARM.exidx     0x000183e4        0x0 fm_entry_ap.oarm
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x000183e4        0x0 fm_exit_ap.oarm
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x000183e4       0x68 dssimengine_accesspoint.oarm
+                                 0xe8 (size before relaxing)
+ .ARM.exidx     0x0001844c        0x8 dssimengine_api.oarm
+                                 0x20 (size before relaxing)
+ .ARM.exidx     0x00018454       0x28 dssimengine_main.oarm
+                                 0x60 (size before relaxing)
+ .ARM.exidx     0x0001847c       0x38 rtosal_task.oarm
+                                 0x50 (size before relaxing)
+ .ARM.exidx     0x000184b4       0x10 rtosal_taskap.oarm
+ .ARM.exidx     0x000184c4       0x10 rtosal_simengineap.oarm
+ .ARM.exidx     0x000184d4       0x18 dssimengine_accesspoint_Voltage_In.oarm
+                                 0x20 (size before relaxing)
+ .ARM.exidx     0x000184ec       0x48 dssimengine_accesspoint_Voltage_Out.oarm
+                                 0x78 (size before relaxing)
+ .ARM.exidx     0x00018534       0x20 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+                                 0x28 (size before relaxing)
+ .ARM.exidx     0x00018554        0x8 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+                                 0x10 (size before relaxing)
+ .ARM.exidx     0x0001855c       0x38 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+                                 0x40 (size before relaxing)
+ .ARM.exidx     0x00018594        0x8 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+                                 0x10 (size before relaxing)
+ .ARM.exidx     0x0001859c        0x8 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000185a4        0x4
+ *(.eh_frame)
+ .eh_frame      0x000185a4        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x00019e70                        . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x00019e70        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00019e70        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00019e70       0x14
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x00019e70        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .init_array    0x00019e74        0x8 dssimengine_main.oarm
+ .init_array    0x00019e7c        0x4 rtosal_simengineap.oarm
+ .init_array    0x00019e80        0x4 IOCode_Data.oarm
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x00019e84        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x00019e84        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x00019e88       0x3c
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00019e88       0x3c C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x00019e88                typeinfo for DsCApplication
+                0x00019e90                typeinfo for DsCTask
+                0x00019e98                vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
+
+.dynamic        0x00019ec4      0x138
+ *(.dynamic)
+ .dynamic       0x00019ec4      0x138 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x00019ec4                _DYNAMIC
+                0x0001a000                        . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x0001a000       0xf8
+ *(.got.plt)
+ .got.plt       0x0001a000       0xf0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x0001a000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0001a0f0        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ *(.got)
+ .got           0x0001a0f0        0x8 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ *(.igot)
+
+.data           0x0001a0f8      0x648
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0001a0f8        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                0x0001a0f8                __data_start
+                0x0001a0f8                data_start
+ .data          0x0001a0fc        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .data          0x0001a0fc        0x4 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+                0x0001a0fc                __dso_handle
+ .data          0x0001a100        0x0 mdladapter_mdlfunctions.oarm
+ .data          0x0001a100        0x0 mdlCode_ap.oarm
+ .data          0x0001a100        0x0 data_in_ap.oarm
+ .data          0x0001a100        0x0 data_out_ap.oarm
+ .data          0x0001a100        0x0 fm_entry_ap.oarm
+ .data          0x0001a100        0x0 fm_exit_ap.oarm
+ .data          0x0001a100        0x1 dssimengine_accesspoint.oarm
+                0x0001a100                isFirstSimulation
+ .data          0x0001a101        0x0 dssimengine_api.oarm
+ *fill*         0x0001a101        0x7 
+ .data          0x0001a108       0x50 dssimengine_main.oarm
+                0x0001a108                SimEngineLastApplState
+                0x0001a110                ApplInfoDsCApplicationMain
+                0x0001a150                DsFwIfVersion
+                0x0001a154                DsApplIfVersion
+ .data          0x0001a158        0x0 rtosal_task.oarm
+ .data          0x0001a158        0x0 rtosal_taskap.oarm
+ .data          0x0001a158       0x10 rtosal_simengineap.oarm
+                0x0001a158                g_dsrtt_comm_enabled
+                0x0001a160                ScalingFactor
+ .data          0x0001a168       0x64 IOCode_Data.oarm
+                0x0001a168                g_ResourceMap
+ .data          0x0001a1cc        0x0 dssimengine_accesspoint_Voltage_In.oarm
+ .data          0x0001a1cc        0x0 dssimengine_accesspoint_Voltage_Out.oarm
+ .data          0x0001a1cc        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+ .data          0x0001a1cc        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+ .data          0x0001a1cc        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+ *fill*         0x0001a1cc        0x4 
+ .data          0x0001a1d0      0x570 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+                0x0001a1d0                Automatic_ClimateControl_P
+ .data          0x0001a740        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+ .data          0x0001a740        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+ .data          0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+ .data          0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.tm_clone_table
+                0x0001a740        0x0
+ .tm_clone_table
+                0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .tm_clone_table
+                0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+
+.data1
+ *(.data1)
+                0x0001a740                        _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0001a740                        . = .
+                0x0001a740                        __bss_start = .
+                0x0001a740                        __bss_start__ = .
+
+.bss            0x0001a740      0x4c4
+ *(.dynbss)
+ .dynbss        0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .bss           0x0001a740        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .bss           0x0001a740        0x1 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .bss           0x0001a741        0x0 mdladapter_mdlfunctions.oarm
+ .bss           0x0001a741        0x0 mdlCode_ap.oarm
+ .bss           0x0001a741        0x0 data_in_ap.oarm
+ .bss           0x0001a741        0x0 data_out_ap.oarm
+ .bss           0x0001a741        0x0 fm_entry_ap.oarm
+ .bss           0x0001a741        0x0 fm_exit_ap.oarm
+ *fill*         0x0001a741        0x3 
+ .bss           0x0001a744       0x38 dssimengine_accesspoint.oarm
+                0x0001a744                xilApiEesPortTrigger
+                0x0001a748                xilApiEesPortFlags
+                0x0001a74c                pXilApiEesPortErrorSwitching
+                0x0001a750                pXilApiEesPortErrorActivated
+                0x0001a754                pXilApiEesPortActiveErrorSet
+                0x0001a758                pFailureSimulationRelaySwitching
+                0x0001a75c                pFailureSimulationSequenceCount
+                0x0001a760                pFailureSimulationFailureActivated
+                0x0001a764                pFailureSimulationFailureConfigured
+                0x0001a768                pFailureSimulationClientConnected
+                0x0001a76c                pAppMaximumMemoryUsage
+                0x0001a770                pAppCurrentMemoryUsage
+                0x0001a774                pFuseRestoreRequest
+                0x0001a778                pFuseActualStatus
+ .bss           0x0001a77c        0x0 dssimengine_api.oarm
+ .bss           0x0001a77c        0x8 dssimengine_main.oarm
+                0x0001a77c                ErrorList
+                0x0001a780                DsCApplicationMain::s_pInstance
+ *fill*         0x0001a784        0x4 
+ .bss           0x0001a788       0x1c rtosal_task.oarm
+                0x0001a788                pRtosAlPeriodic_Task_1
+                0x0001a78c                DsCRtosAlPeriodic_Task_1::m_pInstance
+                0x0001a790                StepCounter_Periodic_Task_1
+                0x0001a798                RtosAlTaskSimTime_Periodic_Task_1
+                0x0001a7a0                pRtosAlTimer_Periodic_Task_1
+ .bss           0x0001a7a4        0x0 rtosal_taskap.oarm
+ *fill*         0x0001a7a4        0x4 
+ .bss           0x0001a7a8       0x58 rtosal_simengineap.oarm
+                0x0001a7a8                Periodic_Task_1Vars_OvnCounter
+                0x0001a7a8                Periodic_Task_1Vars
+                0x0001a7b0                Periodic_Task_1Vars_TurnaroundTime
+                0x0001a7b8                Periodic_Task_1Vars_Calls
+                0x0001a7c0                Periodic_Task_1Vars_QueueCounter
+                0x0001a7c8                Periodic_Task_1Vars_AbsoluteTime
+                0x0001a7f8                ScaledTimeInterval
+ .bss           0x0001a800       0x98 IOCode_Data.oarm
+                0x0001a800                automatic_climatecontrol_fcnModule_SIDRoot_TID1
+                0x0001a808                voltage_Out_1_Voltage_TA_Replacevalue
+                0x0001a810                voltage_Out_1_Voltage_TA_Switchvalue
+                0x0001a818                voltage_Out_1_Voltage_IO_Signal
+                0x0001a820                voltage_Out_1_Voltage_MDL_Signal
+                0x0001a828                voltage_Out_3_Voltage_TA_Replacevalue
+                0x0001a830                voltage_Out_3_Voltage_TA_Switchvalue
+                0x0001a838                voltage_Out_3_Voltage_IO_Signal
+                0x0001a840                voltage_Out_3_Voltage_MDL_Signal
+                0x0001a848                voltage_Out_2_Voltage_TA_Replacevalue
+                0x0001a850                voltage_Out_2_Voltage_TA_Switchvalue
+                0x0001a858                voltage_Out_2_Voltage_IO_Signal
+                0x0001a860                voltage_Out_2_Voltage_MDL_Signal
+                0x0001a868                voltage_In_1_Voltage_TA_Replacevalue
+                0x0001a870                voltage_In_1_Voltage_TA_Switchvalue
+                0x0001a878                voltage_In_1_Voltage_IO_Signal
+                0x0001a880                voltage_In_1_Voltage_MDL_Signal
+                0x0001a888                pVoltage_Out_1_DriverHandle
+                0x0001a88c                pVoltage_Out_3_DriverHandle
+                0x0001a890                pVoltage_Out_2_DriverHandle
+                0x0001a894                pVoltage_In_1_DriverHandle
+ .bss           0x0001a898        0x0 dssimengine_accesspoint_Voltage_In.oarm
+ .bss           0x0001a898        0x0 dssimengine_accesspoint_Voltage_Out.oarm
+ .bss           0x0001a898        0x4 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+                0x0001a898                DSRTStopSimulation
+ .bss           0x0001a89c        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+ *fill*         0x0001a89c        0x4 
+ .bss           0x0001a8a0      0x335 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+                0x0001a8a0                Automatic_ClimateControl_DW
+                0x0001a8c8                Automatic_ClimateControl_B
+                0x0001abc8                Automatic_ClimateControl_X
+                0x0001abd0                Automatic_ClimateContro_PrevZCX
+                0x0001abd4                Automatic_ClimateControl_XDis
+ .bss           0x0001abd5        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+ *fill*         0x0001abd5        0x3 
+ .bss           0x0001abd8       0x2c C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+                0x0001abd8                p_0_Automatic_ClimateControl_real_T_0
+                0x0001abdc                p_0_Automatic_ClimateControl_int8_T_1
+                0x0001abe0                p_0_Automatic_ClimateControl_boolean_T_2
+                0x0001abe4                p_1_Automatic_ClimateControl_real_T_0
+                0x0001abe8                p_1_Automatic_ClimateControl_uint8_T_1
+                0x0001abec                p_2_Automatic_ClimateControl_real_T_0
+                0x0001abf0                p_2_Automatic_ClimateControl_int32_T_2
+                0x0001abf4                p_2_Automatic_ClimateControl_int_T_3
+                0x0001abf8                p_2_Automatic_ClimateControl_uint8_T_4
+                0x0001abfc                p_2_Automatic_ClimateControl_boolean_T_5
+                0x0001ac00                p_3_Automatic_ClimateControl_real_T_0
+ .bss           0x0001ac04        0x0 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+ .bss           0x0001ac04        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+ .bss           0x0001ac04        0x0 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+ *(COMMON)
+                0x0001ac04                        . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0001ac04                        _bss_end__ = .
+                0x0001ac04                        __bss_end__ = .
+                0x0001ac04                        . = ALIGN (0x4)
+                0x0001ac04                        . = SEGMENT_START ("ldata-segment", .)
+                0x0001ac04                        . = ALIGN (0x4)
+                0x0001ac04                        __end__ = .
+                0x0001ac04                        _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0001ac04                        . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x5a
+ *(.comment)
+ .comment       0x00000000       0x5a C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                                 0x84 (size before relaxing)
+ .comment       0x0000005a       0x30 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .comment       0x0000005a       0x30 mdladapter_mdlfunctions.oarm
+ .comment       0x0000005a       0x30 mdlCode_ap.oarm
+ .comment       0x0000005a       0x30 data_in_ap.oarm
+ .comment       0x0000005a       0x30 data_out_ap.oarm
+ .comment       0x0000005a       0x30 fm_entry_ap.oarm
+ .comment       0x0000005a       0x30 fm_exit_ap.oarm
+ .comment       0x0000005a       0x30 dssimengine_accesspoint.oarm
+ .comment       0x0000005a       0x30 dssimengine_api.oarm
+ .comment       0x0000005a       0x30 dssimengine_main.oarm
+ .comment       0x0000005a       0x30 rtosal_task.oarm
+ .comment       0x0000005a       0x30 rtosal_taskap.oarm
+ .comment       0x0000005a       0x30 rtosal_simengineap.oarm
+ .comment       0x0000005a       0x30 IOCode_Data.oarm
+ .comment       0x0000005a       0x30 dssimengine_accesspoint_Voltage_In.oarm
+ .comment       0x0000005a       0x30 dssimengine_accesspoint_Voltage_Out.oarm
+ .comment       0x0000005a       0x30 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+ .comment       0x0000005a       0x30 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+ .comment       0x0000005a       0x30 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+ .comment       0x0000005a       0x30 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+ .comment       0x0000005a       0x30 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+ .comment       0x0000005a       0x30 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+ .comment       0x0000005a       0x30 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+
+.ARM.attributes
+                0x00000000       0x3b
+ .ARM.attributes
+                0x00000000       0x35 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .ARM.attributes
+                0x00000035       0x21 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .ARM.attributes
+                0x00000056       0x35 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtbegin.o
+ .ARM.attributes
+                0x0000008b       0x37 mdladapter_mdlfunctions.oarm
+ .ARM.attributes
+                0x000000c2       0x37 mdlCode_ap.oarm
+ .ARM.attributes
+                0x000000f9       0x37 data_in_ap.oarm
+ .ARM.attributes
+                0x00000130       0x37 data_out_ap.oarm
+ .ARM.attributes
+                0x00000167       0x37 fm_entry_ap.oarm
+ .ARM.attributes
+                0x0000019e       0x37 fm_exit_ap.oarm
+ .ARM.attributes
+                0x000001d5       0x37 dssimengine_accesspoint.oarm
+ .ARM.attributes
+                0x0000020c       0x37 dssimengine_api.oarm
+ .ARM.attributes
+                0x00000243       0x37 dssimengine_main.oarm
+ .ARM.attributes
+                0x0000027a       0x37 rtosal_task.oarm
+ .ARM.attributes
+                0x000002b1       0x37 rtosal_taskap.oarm
+ .ARM.attributes
+                0x000002e8       0x37 rtosal_simengineap.oarm
+ .ARM.attributes
+                0x0000031f       0x37 IOCode_Data.oarm
+ .ARM.attributes
+                0x00000356       0x37 dssimengine_accesspoint_Voltage_In.oarm
+ .ARM.attributes
+                0x0000038d       0x37 dssimengine_accesspoint_Voltage_Out.oarm
+ .ARM.attributes
+                0x000003c4       0x37 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtmdlfcn.oarm)
+ .ARM.attributes
+                0x000003fb       0x37 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrttf.oarm)
+ .ARM.attributes
+                0x00000432       0x37 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl.oarm)
+ .ARM.attributes
+                0x00000469       0x37 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_data.oarm)
+ .ARM.attributes
+                0x000004a0       0x37 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(Automatic_ClimateControl_dsrtvdf.oarm)
+ .ARM.attributes
+                0x000004d7       0x37 C:\Users\srepaka\AppData\Local\Temp\dSPACE\CfgDesk\AppCache\0\Build\Automatic_ClimateControl\Compile\Automatic_ClimateControl\Automatic_ClimateControl.a(rt_zcfcn.oarm)
+ .ARM.attributes
+                0x0000050e       0x35 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/13.2.0/crtend.o
+ .ARM.attributes
+                0x00000543       0x21 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .debug_aranges
+                0x00000050       0x30 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_aranges
+                0x00000080       0x28 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x564
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x51e C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .debug_info    0x0000051e       0x23 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_info    0x00000541       0x23 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_abbrev   0x00000000      0x198
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x174 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .debug_abbrev  0x00000174       0x12 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_abbrev  0x00000186       0x12 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_line     0x00000000      0x243
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x17b C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+ .debug_line    0x0000017b       0x70 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_line    0x000001eb       0x58 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x479
+ *(.debug_str)
+ .debug_str     0x00000000      0x479 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                                0x75a (size before relaxing)
+ .debug_str     0x00000479       0x55 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_str     0x00000479       0x55 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0x58
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0x58 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crt1.o
+                                 0x52 (size before relaxing)
+ .debug_line_str
+                0x00000058       0x50 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_line_str
+                0x00000058       0x50 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x38
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x1f C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crti.o
+ .debug_rnglists
+                0x0000001f       0x19 C:/Program Files/Common Files/dSPACE/CFD Compiler 24.1/target/arm-linux-gnueabihf/bin/../../arm-linux-gnueabihf/lib/crtn.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(Automatic_ClimateControl.arm elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,42 @@
+[
+   {
+      "Key": "MetaData",
+      "Value": [
+         {
+            "Key": "ApplicationIdentifier",
+            "Value": "f09a448d87a64f009e95370f74fbb8cf"
+         },
+         {
+            "Key": "ApplicationAuthor",
+            "Value": "srepaka"
+         },
+         {
+            "Key": "ApplicationCreatedVersion",
+            "Value": "24.1"
+         },
+         {
+            "Key": "TopologyState",
+            "ValueCollection": [
+               "Model",
+               "Hardware"
+            ]
+         },
+         {
+            "Key": "ProjectManager",
+            "Value": "v3"
+         },
+         {
+            "Key": "AccessIdentifier",
+            "Value": "162afa0fd09b4a988580b7b564cb4afd"
+         },
+         {
+            "Key": "ApplicationModifiedTimeStamp",
+            "Value": "638588265334485206"
+         },
+         {
+            "Key": "ApplicationModifiedVersion",
+            "Value": "24.1"
+         }
+      ]
+   }
+]
