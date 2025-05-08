@@ -1,42 +1,83 @@
-🌡️ Automatic Climate Control System – Real-Time Embedded Project
-This project demonstrates the implementation of an Automatic Climate Control System using dSPACE MicroAutoBox, ConfigurationDesk, and ControlDesk. The system regulates temperature in real-time by monitoring ambient conditions and controlling outputs based on a user-defined setpoint.
+# 🌡️ Automatic Climate Control System  
+**🚗 Real-Time Embedded Application using dSPACE MicroAutoBox**
 
-🧰 Tools & Hardware Used
-MicroAutoBox II (DS1202)
+Welcome to a project where **hardware meets real-world control logic**!  
+This system simulates how modern vehicles maintain cabin comfort using real-time temperature monitoring and automatic actuation—built entirely on the dSPACE platform.
 
-ConfigurationDesk – For graphical model development and I/O configuration
+---
 
-ControlDesk – For real-time signal monitoring and setpoint tuning
+## 🧠 Project Overview
 
-Temperature Sensor – Wired to analog input
+This embedded control system monitors ambient temperature and automatically regulates fan/heater output to maintain a **user-defined comfort setpoint**.
 
-Actuator Output – Controlled via digital output (e.g., fan/heater)
+- Real-time analog input from a temperature sensor  
+- Logic-based decision-making for heating or cooling  
+- Live monitoring and control via **ControlDesk**
 
-⚙️ Project Workflow
-Input Acquisition: Ambient temperature is measured using a temperature sensor connected to an analog input channel.
+---
 
-Control Logic:
+## 🔧 Tools & Hardware
 
-Compares the current temperature with a desired setpoint.
+| Component               | Description                                             |
+|------------------------|---------------------------------------------------------|
+| 🎛️ MicroAutoBox II     | Real-time embedded controller (DS1202)                  |
+| 🧰 ConfigurationDesk   | Visual modeling of control logic and I/O configuration  |
+| 📊 ControlDesk         | Real-time signal tuning, data monitoring & visualization |
+| 🌡️ Temperature Sensor | Analog input to monitor ambient temperature             |
+| 💡 Fan/Heater Output   | Digital outputs to simulate actuation                   |
 
-Activates heater or fan output if the temperature deviates beyond a threshold.
+---
 
-Real-Time Monitoring:
+## ⚙️ How It Works
 
-ControlDesk is used to observe input/output signals and adjust setpoints live.
+### 1. 📥 Sensor Input  
+A temperature sensor is wired to an analog input (e.g., AIN1), providing real-time ambient temperature data.
 
-🔌 I/O Configuration Summary
-Signal	Type	Channel Example
-Temperature Input	Analog Input	AIN1
-Setpoint	Variable	Tuned via ControlDesk
-Heater Output	Digital Out	DOUT1
-Fan Output	Digital Out	DOUT2
+### 2. 🤖 Embedded Logic  
+Control logic compares live input with the user-set setpoint:
 
-✅ Key Learning Outcomes
-Real-time control implementation with MicroAutoBox
+| Condition       | Output Action |
+|----------------|---------------|
+| Too hot        | 👉 Fan ON      |
+| Too cold       | 👉 Heater ON   |
+| Setpoint met   | 👍 Both OFF    |
 
-Sensor integration and signal conditioning
+The logic is implemented in ConfigurationDesk and deployed to the MicroAutoBox.
 
-Embedded system modeling in ConfigurationDesk
+### 3. 🧪 Real-Time Tuning  
+Using ControlDesk, you can:
+- Adjust setpoints on the fly  
+- Monitor sensor and output signals live  
+- Log data for validation
 
-Real-time validation and tuning in ControlDesk
+---
+
+## 🔌 I/O Mapping Summary
+
+| Signal          | Type            | Channel      |
+|-----------------|-----------------|--------------|
+| Temperature     | Analog Input     | AIN1         |
+| Heater Control  | Digital Output   | DOUT1        |
+| Fan Control     | Digital Output   | DOUT2        |
+| Setpoint        | Tunable Variable | ControlDesk  |
+
+---
+
+## 🎓 Learning Outcomes
+
+✅ Real-time embedded system modeling  
+✅ Sensor integration with analog-to-digital conversion  
+✅ Actuator control using digital outputs  
+✅ Signal visualization and real-time system tuning  
+✅ End-to-end experience with dSPACE tools
+
+---
+
+## 📄 License
+
+This project is released under the [MIT License](./LICENSE).  
+For academic and educational use.
+
+---
+
+
